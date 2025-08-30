@@ -1,0 +1,16 @@
+Everything in JS happens in Execution Context
+
+JS is synchronous single-threaded language
+
+Execution Context has two parts: 
+    - The first one is the memory component or the variable environment where everything is stored in key-value pairs. 
+    - The other one is the code component, where the actual code is stored. It is also called Thread of Execution.
+
+Difference between undefined and not-defined in JS
+
+What is window? Global object created with global execution context.
+
+what is hoisting
+let and const hoisting 
+temporial dead zone for let
+
