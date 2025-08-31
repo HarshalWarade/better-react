@@ -1,10 +1,13 @@
 import './App.css'
+import { nanoid } from 'nanoid'
 
 function App() {
 
+  let str = nanoid()
+
   return (
     <>
-      <p>Something</p>
+      <p>{typeof nanoid()}</p>
     </>
   )
 }
